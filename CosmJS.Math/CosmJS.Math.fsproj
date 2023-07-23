@@ -6,7 +6,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Integer.fs" />
+        <Compile Include="Integers.fs" />
+        <Compile Include="Decimal.fs" />
     </ItemGroup>
 
     <ItemGroup>
