@@ -1,5 +1,5 @@
 ﻿// ts2fable 0.9.0
-module rec CosmJS.Math.Integers
+module rec Fable.CosmJS.Math.Integers
 
 #nowarn "3390" // disable warnings for invalid XML comments
 #nowarn "0044" // disable warnings for `Obsolete` usage

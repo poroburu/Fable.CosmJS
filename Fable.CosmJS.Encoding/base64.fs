@@ -1,5 +1,5 @@
 ﻿// ts2fable 0.9.0
-module rec CosmJS.Encoding.base64
+module rec Fable.CosmJS.Encoding.base64
 
 open System
 open Fable.Core

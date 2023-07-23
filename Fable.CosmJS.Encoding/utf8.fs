@@ -1,5 +1,5 @@
 ﻿// ts2fable 0.9.0
-module rec CosmJS.Encoding.utf8
+module rec Fable.CosmJS.Encoding.utf8
 
 open System
 open Fable.Core

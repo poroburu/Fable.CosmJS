@@ -1,8 +1,8 @@
-﻿// ts2fable 0.9.0
-module rec moduleName
+﻿module rec Fable.CosmJS.Math.Decimal
+// ts2fable 0.9.0
 
 open System
-open CosmJS.Math
+open Fable.CosmJS.Math
 open Fable.Core
 open Fable.Core.JS
 

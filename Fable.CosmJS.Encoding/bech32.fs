@@ -1,5 +1,5 @@
 ﻿// ts2fable 0.9.0
-module rec CosmJS.Encoding.bech32
+module rec Fable.CosmJS.Encoding.bech32
 
 #nowarn "3390" // disable warnings for invalid XML comments
 

@@ -3,15 +3,14 @@
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <RootNamespace>CosmJS.Utils</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="utf8.fs" />
-        <Compile Include="hex.fs" />
-        <Compile Include="ascii.fs" />
-        <Compile Include="base64.fs" />
-        <Compile Include="bech32.fs" />
-        <Compile Include="rfc3339.fs" />
+        <Compile Include="Arrays.fs" />
+        <Compile Include="Assert.fs" />
+        <Compile Include="Sleep.fs" />
+        <Compile Include="TypeChecks.fs" />
     </ItemGroup>
 
     <ItemGroup>
