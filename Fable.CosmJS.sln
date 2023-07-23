@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fable.CosmJS", "Fable.CosmJS\Fable.CosmJS.fsproj", "{2BEF8F8D-72D1-4D00-BBFC-AE03855098C6}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CosmJS.Math", "CosmJS.Math\CosmJS.Math.fsproj", "{73902E21-17C4-450C-8C26-F9F707082740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BEF8F8D-72D1-4D00-BBFC-AE03855098C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEF8F8D-72D1-4D00-BBFC-AE03855098C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BEF8F8D-72D1-4D00-BBFC-AE03855098C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BEF8F8D-72D1-4D00-BBFC-AE03855098C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73902E21-17C4-450C-8C26-F9F707082740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73902E21-17C4-450C-8C26-F9F707082740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73902E21-17C4-450C-8C26-F9F707082740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73902E21-17C4-450C-8C26-F9F707082740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
