@@ -8,6 +8,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fable.CosmJS.Encoding", "Fa
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fable.CosmJS.Utils", "Fable.CosmJS.Utils\Fable.CosmJS.Utils.fsproj", "{BBA51C8F-5329-469C-B44E-B7E700D75ED6}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fable.CosmJS.Crypto", "Fable.CosmJS.Crypto\Fable.CosmJS.Crypto.fsproj", "{22EAE5DB-37DF-406C-81EA-62145B1CFFAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{BBA51C8F-5329-469C-B44E-B7E700D75ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBA51C8F-5329-469C-B44E-B7E700D75ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBA51C8F-5329-469C-B44E-B7E700D75ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22EAE5DB-37DF-406C-81EA-62145B1CFFAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22EAE5DB-37DF-406C-81EA-62145B1CFFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22EAE5DB-37DF-406C-81EA-62145B1CFFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EAE5DB-37DF-406C-81EA-62145B1CFFAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

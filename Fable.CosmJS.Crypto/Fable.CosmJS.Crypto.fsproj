@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="utils.fs" />
+        <Compile Include="bip39.fs" />
+        <Compile Include="hash.fs" />
+        <Compile Include="hmac.fs" />
+        <Compile Include="keccak.fs" />
+        <Compile Include="libsodium.fs" />
+        <Compile Include="pbkdf2.fs" />
+        <Compile Include="random.fs" />
+        <Compile Include="ripemd.fs" />
+        <Compile Include="secp256k1signature.fs" />
+        <Compile Include="secp256k1.fs" />
+        <Compile Include="sha.fs" />
+        <Compile Include="slip10.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Fable.CosmJS.Encoding\Fable.CosmJS.Encoding.fsproj" />
+      <ProjectReference Include="..\Fable.CosmJS.Math\Fable.CosmJS.Math.fsproj" />
+      <ProjectReference Include="..\Fable.CosmJS.Utils\Fable.CosmJS.Utils.fsproj" />
+    </ItemGroup>
+
+</Project>
