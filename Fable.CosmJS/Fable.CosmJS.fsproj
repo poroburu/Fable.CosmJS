@@ -7,10 +7,12 @@
 
     <ItemGroup>
         <Compile Include="Library.fs"/>
+        <Compile Include="ReadonlyDate.fs" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="Fable.Core" Version="4.0.0" />
+      <PackageReference Include="Fable.Import.Browser" Version="1.4.0" />
     </ItemGroup>
 
 </Project>
