@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>Fable.CosmJS.json_rpc</RootNamespace>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+      <Compile Include="Compatibility.fs" />
+      <Compile Include="Types.fs" />
+      <Compile Include="Id.fs" />
+      <Compile Include="Parse.fs" />
+      <Compile Include="JsonRpcClient.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Fable.CosmJS\Fable.CosmJS.fsproj" />
+    </ItemGroup>
+
+</Project>
