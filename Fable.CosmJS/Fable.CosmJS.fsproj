@@ -8,6 +8,8 @@
     <ItemGroup>
         <Compile Include="Library.fs"/>
         <Compile Include="ReadonlyDate.fs" />
+        <Compile Include="XStream.fs" />
+        <Compile Include="Iterable.fs" />
     </ItemGroup>
 
     <ItemGroup>

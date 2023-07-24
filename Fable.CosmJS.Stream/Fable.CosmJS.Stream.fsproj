@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Concat.fs" />
+        <Compile Include="DefaultValueProducer.fs" />
+        <Compile Include="DropDuplicates.fs" />
+        <Compile Include="Promise.fs" />
+        <Compile Include="Reducer.fs" />
+        <Compile Include="ValueAndUpdates.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Fable.CosmJS\Fable.CosmJS.fsproj" />
+    </ItemGroup>
+
+</Project>
