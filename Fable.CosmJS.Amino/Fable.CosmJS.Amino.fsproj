@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+      <Compile Include="Wallet.fs" />
+      <Compile Include="Coins.fs" />
+      <Compile Include="Pubkeys.fs" />
+      <Compile Include="Addresses.fs" />
+      <Compile Include="Encoding.fs" />
+      <Compile Include="Multisig.fs" />
+      <Compile Include="Paths.fs" />
+      <Compile Include="SignDoc.fs" />
+      <Compile Include="Signature.fs" />
+      <Compile Include="Signer.fs" />
+      <Compile Include="Secp256k1HdWallet.fs" />
+      <Compile Include="Secp256k1Wallet.fs" />
+      <Compile Include="StdTx.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Fable.CosmJS.Crypto\Fable.CosmJS.Crypto.fsproj" />
+    </ItemGroup>
+
+</Project>
