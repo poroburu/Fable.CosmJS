@@ -7,9 +7,9 @@ open System
 open Fable.Core
 open Fable.Core.JS
 
-type JsonCompatibleArray = JsonCompatibleArray
-type JsonCompatibleDictionary = JsonCompatibleDictionary
-type JsonCompatibleValue = JsonCompatibleValue
+type JsonCompatibleArray = Compatibility.JsonCompatibleArray
+type JsonCompatibleDictionary = Compatibility.JsonCompatibleDictionary
+type JsonCompatibleValue = Compatibility.JsonCompatibleValue
 /// <summary>Error codes as specified in JSON-RPC 2.0</summary>
 /// <seealso href="https://www.jsonrpc.org/specification#error_object" />
 let [<Import("jsonRpcCode","module")>] jsonRpcCode: JsonRpcCode = jsNative

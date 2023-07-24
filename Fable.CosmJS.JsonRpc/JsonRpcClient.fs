@@ -7,9 +7,9 @@ open Fable.Core.JS
 open Fable.CosmJS
 
 type Stream<'T> = XStream.Stream<'T>
-type JsonRpcRequest = JsonRpcRequest
-type JsonRpcResponse = JsonRpcResponse
-type JsonRpcSuccessResponse = JsonRpcSuccessResponse
+type JsonRpcRequest = Types.JsonRpcRequest
+type JsonRpcResponse = Types.JsonRpcResponse
+type JsonRpcSuccessResponse = Types.JsonRpcSuccessResponse
 
 type [<AllowNullLiteral>] IExports =
     /// A thin wrapper that is used to bring together requests and responses by ID.

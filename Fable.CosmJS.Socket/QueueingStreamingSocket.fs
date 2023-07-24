@@ -5,9 +5,9 @@ open System
 open Fable.Core
 open Fable.Core.JS
 open Fable.CosmJS
-open Fable.CosmJS.Stream.ValueAndUpdates
+open Fable.CosmJS.Stream
 
-//type ValueAndUpdates = ValueAndUpdates
+type ValueAndUpdates<'T> = ValueAndUpdates.ValueAndUpdates<'T>
 type Stream<'T> = XStream.Stream<'T>
 type SocketWrapperMessageEvent = SocketWrapperMessageEvent
 

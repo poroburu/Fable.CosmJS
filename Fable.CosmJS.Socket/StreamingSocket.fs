@@ -7,7 +7,7 @@ open Fable.Core.JS
 open Fable.CosmJS
 
 type Stream<'T> = XStream.Stream<'T>
-type SocketWrapperMessageEvent = SocketWrapperMessageEvent
+type SocketWrapperMessageEvent = SocketWrapper.SocketWrapperMessageEvent
 
 type [<AllowNullLiteral>] IExports =
     /// A WebSocket wrapper that exposes all events as a stream.

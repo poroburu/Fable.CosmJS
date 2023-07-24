@@ -7,8 +7,8 @@ open System
 open Fable.Core
 open Fable.Core.JS
 
-type ExtendedSecp256k1Signature = __secp256k1signature.ExtendedSecp256k1Signature
-type Secp256k1Signature = __secp256k1signature.Secp256k1Signature
+type ExtendedSecp256k1Signature = secp256k1signature.ExtendedSecp256k1Signature
+type Secp256k1Signature = secp256k1signature.Secp256k1Signature
 
 type [<AllowNullLiteral>] IExports =
     abstract Secp256k1: Secp256k1Static

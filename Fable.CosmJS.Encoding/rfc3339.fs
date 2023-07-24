@@ -3,8 +3,8 @@ module rec Fable.CosmJS.Encoding.rfc3339
 open System
 open Fable.Core
 open Fable.Core.JS
-
-type ReadonlyDate = ReadonlyDate
+open Fable.CosmJS
+type ReadonlyDate = ReadonlyDate.ReadonlyDate
 
 type [<AllowNullLiteral>] IExports =
     abstract fromRfc3339: str: string -> DateTime

@@ -7,11 +7,11 @@ open System
 open Fable.Core
 open Fable.Core.JS
 
-type JsonRpcErrorResponse = JsonRpcErrorResponse
-type JsonRpcId = JsonRpcId
-type JsonRpcRequest = JsonRpcRequest
-type JsonRpcResponse = JsonRpcResponse
-type JsonRpcSuccessResponse = JsonRpcSuccessResponse
+type JsonRpcErrorResponse = Types.JsonRpcErrorResponse
+type JsonRpcId = Types.JsonRpcId
+type JsonRpcRequest = Types.JsonRpcRequest
+type JsonRpcResponse = Types.JsonRpcResponse
+type JsonRpcSuccessResponse = Types.JsonRpcSuccessResponse
 
 type [<AllowNullLiteral>] IExports =
     /// Creates a new ID to be used for creating a JSON-RPC request.

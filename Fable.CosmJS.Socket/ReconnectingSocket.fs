@@ -5,13 +5,14 @@ open System
 open Fable.Core
 open Fable.Core.JS
 open Fable.CosmJS
-open Fable.CosmJS.Stream.ValueAndUpdates
+open Fable.CosmJS.Socket.SocketWrapper
+//open Fable.CosmJS.Stream.ValueAndUpdates
 
 
-//type ValueAndUpdates = ValueAndUpdates
+type ValueAndUpdates<'T> = Fable.CosmJS.Stream.ValueAndUpdates.ValueAndUpdates<'T>
 type Stream<'T> = XStream.Stream<'T>
-type ConnectionStatus = ConnectionStatus
-type SocketWrapperMessageEvent = SocketWrapperMessageEvent
+type ConnectionStatus = QueueingStreamingSocket.ConnectionStatus
+type SocketWrapperMessageEvent = SocketWrapper.SocketWrapperMessageEvent
 
 [<AllowNullLiteral>]
 type IExports =

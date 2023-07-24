@@ -6,10 +6,11 @@ module rec Fable.CosmJS.Stream.Concat
 open System
 open Fable.Core
 open Fable.Core.JS
+open Fable.CosmJS
 
 type Array<'T> = System.Collections.Generic.IList<'T>
 
-type Stream<'T> = Fable.CosmJS.XStream.Stream<'T>
+type Stream<'T> = XStream.Stream<'T>
 
 type [<AllowNullLiteral>] IExports =
     /// <summary>
