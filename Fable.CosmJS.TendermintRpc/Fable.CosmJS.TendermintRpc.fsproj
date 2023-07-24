@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <RootNamespace>TendermintRpc</RootNamespace>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+      <ProjectReference Include="..\Fable.CosmJS.Crypto\Fable.CosmJS.Crypto.fsproj" />
+      <ProjectReference Include="..\Fable.CosmJS.JsonRpc\Fable.CosmJS.JsonRpc.fsproj" />
+      <ProjectReference Include="..\Fable.CosmJS.Socket\Fable.CosmJS.Socket.fsproj" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <Compile Include="RpcClients\Http.fs" />
+      <Compile Include="RpcClients\RpcClient.fs" />
+      <Compile Include="RpcClients\HttpClient.fs" />
+      <Compile Include="RpcClients\HttpBatchClient.fs" />
+      <Compile Include="RpcClients\WebsocketClient.fs" />
+      <Compile Include="Dates.fs" />
+      <Compile Include="Types.fs" />
+      <Compile Include="Addresses.fs" />
+      <Compile Include="IntHelpers.fs" />
+      <Compile Include="JsonRpc.fs" />
+      <Compile Include="Tendermint34\Requests.fs" />
+      <Compile Include="Tendermint34\Responses.fs" />
+      <Compile Include="Tendermint34\Tendermint34Client.fs" />
+      <Compile Include="Tendermint34\Encodings.fs" />
+      <Compile Include="Tendermint34\Hasher.fs" />
+      <Compile Include="Tendermint34\Adaptor\Requests.fs" />
+      <Compile Include="Tendermint34\Adaptor\Responses.fs" />
+      <Compile Include="Tendermint34\Adaptor\Types.fs" />
+      <Compile Include="Tendermint37\Requests.fs" />
+      <Compile Include="Tendermint37\Responses.fs" />
+      <Compile Include="Tendermint37\Tendermint37Client.fs" />
+      <Compile Include="Tendermint37\Encodings.fs" />
+      <Compile Include="Tendermint37\Hasher.fs" />
+      <Compile Include="Tendermint37\Adaptor\Requests.fs" />
+      <Compile Include="Tendermint37\Adaptor\Responses.fs" />
+      <Compile Include="Tendermint37\Adaptor\Types.fs" />
+      <Compile Include="TendermintClient.fs" />
+    </ItemGroup>
+
+</Project>

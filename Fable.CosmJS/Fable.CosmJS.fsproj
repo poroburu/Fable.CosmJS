@@ -10,6 +10,7 @@
         <Compile Include="ReadonlyDate.fs" />
         <Compile Include="XStream.fs" />
         <Compile Include="Iterable.fs" />
+        <Compile Include="Record.fs" />
     </ItemGroup>
 
     <ItemGroup>
