@@ -11,6 +11,13 @@
         <Compile Include="XStream.fs" />
         <Compile Include="Iterable.fs" />
         <Compile Include="Record.fs" />
+        <Compile Include="@types\long\Long.fs" />
+        <Compile Include="CosmJSTypes\Google.Protobuf\ProtobufRW.fs" />
+        <Compile Include="CosmJSTypes\Google.Protobuf\Any.fs" />
+        <Compile Include="CosmJSTypes\Cosmos\crypto\multisig.fs" />
+        <Compile Include="CosmJSTypes\Cosmos\tx\signing\signing.fs" />
+        <Compile Include="CosmJSTypes\Cosmos\tx\v1beta1\tx.fs" />
+        <Compile Include="CosmJSTypes\Helpers.fs" />
     </ItemGroup>
 
     <ItemGroup>
